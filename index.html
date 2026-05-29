@@ -86,6 +86,44 @@
         });
 
         document.addEventListener("DOMContentLoaded", function() {
+
+        function isJune() {
+            const now = new Date();
+            const month = now.getMonth(); // 0 = January, 5 = June
+            return month === 5; // June
+        }
+
+        // Regenbogen-Aura für Juni
+        if (isJune()) {
+            const aura = document.createElement("div");
+            aura.style.position = "fixed";
+            aura.style.bottom = "0";
+            aura.style.left = "0";
+            aura.style.right = "0";
+            aura.style.height = "200px";
+            aura.style.background = "linear-gradient(to right, transparent, rgba(255, 0, 0, 0.3), rgba(255, 165, 0, 0.3), rgba(255, 255, 0, 0.3), rgba(0, 255, 0, 0.3), rgba(0, 0, 255, 0.3), rgba(75, 0, 130, 0.3), rgba(238, 130, 238, 0.3), transparent)";
+            aura.style.maskImage = "linear-gradient(to top, black, transparent)";
+            aura.style.webkitMaskImage = "linear-gradient(to top, black, transparent)";
+            aura.style.pointerEvents = "none";
+            aura.style.zIndex = "9998";
+
+            document.body.appendChild(aura);
+
+            // Aura oben
+            const auraTop = document.createElement("div");
+            auraTop.style.position = "fixed";
+            auraTop.style.top = "0";
+            auraTop.style.left = "0";
+            auraTop.style.right = "0";
+            auraTop.style.height = "100px";
+            auraTop.style.background = "linear-gradient(to right, transparent, rgba(255, 0, 0, 0.3), rgba(255, 165, 0, 0.3), rgba(255, 255, 0, 0.3), rgba(0, 255, 0, 0.3), rgba(0, 0, 255, 0.3), rgba(75, 0, 130, 0.3), rgba(238, 130, 238, 0.3), transparent)";
+            auraTop.style.maskImage = "linear-gradient(to bottom, black, transparent)";
+            auraTop.style.webkitMaskImage = "linear-gradient(to bottom, black, transparent)";
+            auraTop.style.pointerEvents = "none";
+            auraTop.style.zIndex = "9998";
+            document.body.appendChild(auraTop);
+        }
+
         // Function to check if the current date is in winter
         function isWinter() {
           const now = new Date();
