@@ -191,6 +191,11 @@ footer {
     margin-top: auto;
 }
 
+/* Footer Links - Remove the ">" prefix */
+footer a::before {
+    content: "";
+    display: none;
+}
 /* Mobile Adjustments */
 @media (max-height: 700px) {
     main {
