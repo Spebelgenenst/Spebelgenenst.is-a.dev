@@ -12,6 +12,7 @@ I use arch btw
 ## Linx
 
 - [GitHub](https://github.com/Spebelgenenst)
+- [MyPayIndia](https://mypayindia.com/@Spebelgenenst)
 - [Discord](https://discordapp.com/users/1217487724488167571)
 - [Steam](https://steamcommunity.com/id/Spebelgenenst/)
 - [NameMC](https://namemc.com/profile/SpebelGenenst.1)
