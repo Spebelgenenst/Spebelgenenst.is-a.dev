@@ -22,10 +22,11 @@ I use arch btw
 
 ## Projects
 
-- [Discord Silly Bot](https://github.com/Spebelgenenst/discord-sillybot)
 - [MyPayIndia miner](https://github.com/Spebelgenenst/MyPayIndia-miner)
-- [MyArchIndia](https://github.com/Spebelgenenst/MyArchIndia)
+- [Discord Silly Bot](https://github.com/Spebelgenenst/discord-sillybot)
+- [Mole PvP](https://github.com/Spebelgenenst/mole-pvp)
 - [The meaning of life](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- [More..](https://github.com/Spebelgenenst?tab=repositories)
 
 ---
 
